@@ -1,0 +1,24 @@
+# .gitignore
+dataset/train/
+dataset/test/
+*.zip
+*.tar.gz
+output/*.tsv
+artifacts/
+__pycache__/
+.DS_Store
+
+# Datasets & Outputs
+dataset/
+output/
+*.tsv
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.env
+.DS_Store
